@@ -4,9 +4,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap, MIT, Copyright (c) 2011-2020 Twitter, Inc., Copyright (c) 2011-2020 The Bootstrap Authors -->
 <link rel="stylesheet" href="bootstrap.min.css"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1">
-<script src="bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"></script>
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3">
 <!-- Bootstrap Icons, MIT, Copyright (c) 2019-2020 The Bootstrap Authors -->
+<style>
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: var(--bs-dark);
+            color: var(--bs-light);
+        }
+    }
+</style>
 <body class="d-flex flex-column h-100">
 <header>
     <nav class="navbar navbar-expand navbar-dark sticky-top bg-dark">
@@ -33,34 +40,36 @@
 </header>
 <main role="main">
     <div class="container">
-        <h1 class="display-3">Hello World to Full-Stack Development</h1>
+        <h1 class="display-3">Recent Projects</h1>
 
         <div class="row">
             <div class="col-md-4">
-                <h2>iOS & Android App</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-                    mollis euismod. Donec sed odio dui. </p>
+                <h2>routing-compose</h2>
+                <h6>Routing feature for Compose Web</h6>
+                <p>A typed routing feature including a Hash- and a BrowserRouter. Supports dynamic changing the
+                    routing tree, auto-redirecting and query parameters without reloading the state.</p>
                 <p>
-                    <button class="btn btn-secondary" role="button">View details</button>
+                    <a class="btn btn-secondary" href="https://github.com/hfhbd/routing-compose">View project</a>
                 </p>
             </div>
             <div class="col-md-4">
-                <h2>Web</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-                    mollis euismod. Donec sed odio dui. </p>
+                <h2>Compose Todo</h2>
+                <h6>Fullstack Development using Kotlin as KMM</h6>
+                <p>The backend uses Ktor and shares the DTOs with the
+                    clients. The clients are powered by Jetpack Compose on Android, Compose for
+                    Desktop and
+                    Compose for Web, with a common business module. The iOS app based on the common business
+                    module, but the UI is written in SwiftUI. </p>
                 <p>
-                    <button class="btn btn-secondary" role="button">View details</button>
+                    <a class="btn btn-secondary" href="https://github.com/hfhbd/composetodo">View project</a>
                 </p>
             </div>
             <div class="col-md-4">
-                <h2>Backend</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-                    porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-                    ut fermentum massa justo sit amet risus.</p>
+                <h2>bootstrap-compose</h2>
+                <h6>bootstrap wrapper for Compose Web</h6>
+                <p>Easy to use wrapper library to bring bootstrap to Compose Web</p>
                 <p>
-                    <button class="btn btn-secondary" role="button">View details</button>
+                    <a class="btn btn-secondary" href="https://github.com/hfhbd/bootstrap-compose">View project</a>
                 </p>
             </div>
         </div>
@@ -70,7 +79,7 @@
 <footer class="footer mt-auto">
     <div class="container">
         <hr>
-        <p>&copy; Softwork.app 2020</p>
+        <p>&copy; Softwork.app 2022</p>
     </div>
 </footer>
 </body>
