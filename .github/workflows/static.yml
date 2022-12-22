@@ -3,7 +3,6 @@ name: Website
 on:
   push:
     branches: ["softwork.app"]
-  workflow_dispatch:
 
 permissions:
   contents: read

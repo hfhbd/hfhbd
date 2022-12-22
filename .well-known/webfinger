@@ -1,8 +1,0 @@
-{
-    "subject": "acct:hfhbd@softwork.app",
-    "links": [{
-        "rel": "self",
-        "type": "application/activity+json",
-        "href": "https://softwork.app/hfhbd"
-    }]
-}
