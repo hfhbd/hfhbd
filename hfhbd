@@ -1,0 +1,24 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/activitystreams",
+        "https://w3id.org/security/v1"
+    ],
+    "id": "https://softwork.app/hfhbd",
+    "type": "Person",
+    "following": "https://softwork.app/following",
+    "followers": "https://softwork.app/followers",
+    "inbox": "https://softwork.app/inbox",
+    "preferredUsername": "hfhbd",
+    "name": "Philip Wedemann",
+    "summary": "Static mastodon server example.",
+    "url": "https://softwork.app",
+    "manuallyApprovesFollowers": true,
+    "discoverable": true,
+    "published": "2022-12-22T00:00:00Z",
+
+    "icon": {
+        "type": "Image",
+        "mediaType": "image/jpeg",
+        "url": "https://softwork.app/hfhbd.jpg"
+    }
+}
